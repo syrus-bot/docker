@@ -1,7 +1,7 @@
 {
-	"name": "syrus-PROJECT",
+	"name": "syrus-docker",
 	"version": "1.0.0",
-	"description": "PROJECT DESCRIPTION",
+	"description": "Docker automation CLI and dockerfiles for Syrus",
 	"main": "src/main.js",
 	"scripts": {
 		"start": "npm run lint && cd src && node main",
@@ -9,9 +9,9 @@
 		"gpr": "git pull && npm start"
 	},
 	"author": {
-		"name": "AUTHOR USERNAME (FULL NAME)",
-		"email": "AUTHOR EMAIL",
-		"url": "AUTHOR GITHUB / PERSONAL SITE"
+		"name": "Nytelife26 (Tyler J. Russell)",
+		"email": "nytelife@protonmail.com",
+		"url": "https://github.com/Nytelife26"
 	},
 	"contributors": [],
 	"license": "MIT",
@@ -40,13 +40,13 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/syrus-bot/PROJECT.git"
+		"url": "git+https://github.com/syrus-bot/docker.git"
 	},
 	"engines": {
 		"node": ">=14.0.0"
 	},
 	"bugs": {
-		"url": "https://github.com/syrus-bot/PROJECT/issues"
+		"url": "https://github.com/syrus-bot/docker/issues"
 	},
-	"homepage": "https://github.com/syrus-bot/PROJECT#readme"
+	"homepage": "https://github.com/syrus-bot/docker#readme"
 }
