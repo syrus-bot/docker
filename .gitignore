@@ -3,3 +3,4 @@
 **/application.yml
 **/redis.conf
 **/Lavalink.jar
+**/mongod.conf
