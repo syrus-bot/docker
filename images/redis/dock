@@ -1,0 +1,24 @@
+#!/bin/sh
+case $1 in
+"help"|"--help"|"-h")
+	echo "Usage: ./dock <command>
+
+	commands:
+		build	- build the docker image
+		run 	- run the container
+		deploy	- push the image
+		remove	- remove the image"
+	;;
+"build")
+	docker build -t syrus/redis .
+	;;
+"run")
+	docker container run -it syrus/redis /bin/sh
+	;;
+"deploy")
+	docker push syrus/redis
+	;;
+"remove")
+	docker rmi -f syrus/redis
+	;;
+esac
