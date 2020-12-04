@@ -1,3 +1,5 @@
 **/node_modules
 **/coverage
 **/application.yml
+**/redis.conf
+**/Lavalink.jar
