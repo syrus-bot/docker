@@ -23,7 +23,7 @@ processManagement:
   timeZoneInfo: /usr/share/zoneinfo
 
 security:
-  authorization: enabled
+#  authorization: enabled
   javascriptEnabled: false
 
 #operationProfiling:
