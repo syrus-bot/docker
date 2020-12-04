@@ -1,0 +1,29 @@
+version: "3"
+services:
+    mongodb:
+        image: "syrus/mongo:latest"
+        networks:
+            - "syrus"
+        volumes:
+            - "mongo:/opt/MongoDB"
+    redis:
+        image: "syrus/redis:latest"
+        networks:
+            - "syrus"
+    lavalink:
+        image: "syrus/lavalink:latest"
+        networks:
+            - "syrus"
+    syrus:
+        image: "syrus/bot:latest"
+        networks:
+            - "syrus"
+        depends_on:
+            - "mongodb"
+            - "redis"
+            - "lavalink"
+volumes:
+    mongo: {}
+networks:
+    syrus:
+        driver: "bridge"
