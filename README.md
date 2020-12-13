@@ -1,6 +1,6 @@
-# Project 1.0.0
+# Syrus Docker 1.0.0
 
-This is a template repository for Syrus projects. The description goes here.  
+This is a repository for Syrus' docker images and container management system  
 Here you may find:
 - The [project contribution guidelines](CONTRIBUTING.md)
 - The [primary project source code](tree/blob/src)
